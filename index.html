@@ -3,6 +3,22 @@ layout: page
 tagline:
 ---
 
+{% for resume in paginator.resume %}
+<article class="home">
+  <h2>
+    <a href="{{ site.BASE_PATH }}{{ resume.url }}">{{ resume.title }}</a>
+  </h2>
+
+  <div>
+    {{ resume.content }}
+  </div>
+</article>
+{% endfor %}
+<hr/>
+
+
+
+
 {% for post in paginator.posts %}
 
 <article class="home">
