@@ -11,8 +11,8 @@
     var $contactList = $('#contact-list');
 
     $scontacts.hide();
-    $contactList.mouseenter(function(){ $scontacts.fadeIn(); });
-    $contactList.mouseleave(function(){ $scontacts.fadeOut(); });
+    //$contactList.mouseenter(function(){ $scontacts.fadeIn(); });
+    //$contactList.mouseleave(function(){ $scontacts.fadeOut(); });
 
     /**
      * Tags & categories tab activation based on hash value. If hash is undefined then first tab is activated.
